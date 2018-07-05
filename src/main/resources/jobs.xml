@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <source>
+        <url>jdbc:mysql://127.0.0.1:3306/test?characterSetResults=utf8</url>
+        <username>root</username>
+        <password></password>
+        <dbtype>mysql</dbtype>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <dbName>wtxfirecontrol</dbName>
+        <destTable>a,b,c,d</destTable>
+    </source>
+    <dest>
+        <url>jdbc:mysql://127.0.0.1:3306/test?characterSetResults=utf8</url>
+        <username>root</username>
+        <password></password>
+        <dbtype>mysql</dbtype>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <dbName>wtx</dbName>
+        <destTable>a,b,c,d</destTable>
+    </dest>
+</root>
